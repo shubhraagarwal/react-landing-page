@@ -6,6 +6,7 @@ import Card from './Card';
 
 function createCard(category){
     return <Card 
+    id = {category.id}
     name={category.name}
     item1 = {category.item1}
     item2 = {category.item2}

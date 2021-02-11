@@ -7,12 +7,25 @@
 .List{
     min-height: 100vh;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap ;
-    flex-direction: row; 
+    /* justify-content: space-around; */
+    flex-direction: column; 
 }
-.card1{
-    color: #32383E;
+
+.card-category{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    
+}
+.card-category2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 480px){
+    .card10{
+        margin-right: 4rem;
+        margin-left: 0;
+    }
 }
