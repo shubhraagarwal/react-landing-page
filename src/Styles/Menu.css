@@ -1,0 +1,15 @@
+.Menu{
+    background-image: url('https://wallpapercave.com/wp/mGD11sD.jpg');
+    display: flex;
+    min-height: 100vh;
+    max-width: 99vw;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+@media screen and (max-width: 420px){
+    .Menu{
+        flex-direction: column;
+    }
+}

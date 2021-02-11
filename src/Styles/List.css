@@ -1,0 +1,18 @@
+.list-h1{
+    font-family: 'Pangolin', cursive;
+    background-color: black;
+    color: white;
+    padding-top: 1rem ;
+}
+.List{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+    flex-direction: row; 
+}
+.card1{
+    color: #32383E;
+    display: flex;
+    justify-content: space-between;
+}

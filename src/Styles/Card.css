@@ -1,0 +1,21 @@
+.Card{
+    display: block;
+    background-color: rgb(29, 168, 99);
+    justify-content: space-around;
+    min-width: 15vw;
+    opacity: 0.8;
+    border-radius: 10%;
+    
+}
+.card-h1{
+    font-family: 'Pangolin', cursive;
+}
+.content{
+    justify-content: left;
+}
+
+@media screen and (max-width: 420px){
+    .Card{
+        margin-top: 3rem ;
+    }
+}
